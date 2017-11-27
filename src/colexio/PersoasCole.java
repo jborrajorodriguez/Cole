@@ -16,8 +16,8 @@ public class PersoasCole {
     /**
      * Constructor con parametros.
      *
-     * @param nome
-     * @param direccion
+     * @param nome nome das persoas do cole
+     * @param direccion direccion das persoas do cole.
      */
     public PersoasCole(String nome,String direccion) {
         this.nome = nome;
@@ -27,7 +27,7 @@ public class PersoasCole {
     /**
      * Metodo getNome que retorna el valor de nome.
      *
-     * @return
+     * @return devolve o nome da persoa
      */
     public String getNome() {
         return nome;
@@ -36,7 +36,7 @@ public class PersoasCole {
     /**
      * Metodo setNome que la da un valor de tipo String a nome.
      *
-     * @param nome
+     * @param nome asigna o nome da persoa.
      */
     public void setNome(String nome) {
         this.nome = nome;
@@ -45,7 +45,7 @@ public class PersoasCole {
     /**
      * Metodo getDireccion que retorna el valor de direccion.
      *
-     * @return
+     * @return devolve a direccion.
      */
 
     public String getDireccion() {
@@ -55,7 +55,7 @@ public class PersoasCole {
     /**
      * Metodo setDireccion que asigna un valor de tipo String a direccion.
      *
-     * @param direccion
+     * @param direccion asigna a direccion
      */
     public void setDireccion(String direccion) {
         this.direccion = direccion;
@@ -64,7 +64,7 @@ public class PersoasCole {
     /**
      * Metodo toString que retorna un valor de tipo String.
      *
-     * @return
+     * @return devolve o nome e a direccion.
      */
     @Override
     public String toString() {

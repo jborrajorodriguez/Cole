@@ -16,11 +16,11 @@ public class EstudanteInternacional extends Estudante {
     /**
      * Constructor con valores de la clase EstudanteInternacional.
      *
-     * @param pais
-     * @param nomeCole
-     * @param nivel
-     * @param nome
-     * @param direccion
+     * @param pais nome do pais do alumno extranjero.
+     * @param nomeCole nome do colexio
+     * @param nivel nivel do alumno.
+     * @param nome nome do alumno.
+     * @param direccion direccion do alumno.
      */
     public EstudanteInternacional(String pais,String nomeCole,int nivel,String nome,String direccion) {
         super(nomeCole,nivel,nome,direccion);
@@ -30,7 +30,7 @@ public class EstudanteInternacional extends Estudante {
     /**
      * Metodo getPais que devolve un String.
      *
-     * @return
+     * @return devolve o nome do pais.
      */
     public String getPais() {
         return pais;
@@ -39,7 +39,7 @@ public class EstudanteInternacional extends Estudante {
     /**
      * Metodo setPais que le da un valor String a pais.
      *
-     * @param pais
+     * @param pais nome do pais do alumno.
      */
     public void setPais(String pais) {
         this.pais = pais;
@@ -48,7 +48,7 @@ public class EstudanteInternacional extends Estudante {
     /**
      * Metodo toString que devolve un String.
      *
-     * @return
+     * @return devolve o nome,direccion,nome do colexio,nivel e pais do alumno.
      */
     @Override
     public String toString() {

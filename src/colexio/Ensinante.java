@@ -16,9 +16,9 @@ public class Ensinante extends PersoasCole {
     /**
      * Constructor con valores de la clase Ensinante.
      *
-     * @param materia
-     * @param nome
-     * @param direccion
+     * @param materia nombre de la materia que imparte el profesor
+     * @param nome nombre del profesor
+     * @param direccion direccion del profesor.
      */
     public Ensinante(String materia,String nome,String direccion) {
         super(nome,direccion);
@@ -28,7 +28,7 @@ public class Ensinante extends PersoasCole {
     /**
      * Metodo getMateria que retorna un String.
      *
-     * @return
+     * @return nombre de la materia
      */
     public String getMateria() {
         return materia;
@@ -37,7 +37,7 @@ public class Ensinante extends PersoasCole {
     /**
      * Metodo setMateria que le da un valor de tipo String a materia.
      *
-     * @param materia
+     * @param materia nombre de la materia que imparte el profesor
      */
     public void setMateria(String materia) {
         this.materia = materia;
@@ -46,7 +46,7 @@ public class Ensinante extends PersoasCole {
     /**
      * Metodo toString que devuelve un valor de tipo String.
      *
-     * @return
+     * @return Muestra el nombre la direccion y la materia del profesor.
      */
     @Override
     public String toString() {

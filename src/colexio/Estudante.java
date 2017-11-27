@@ -17,10 +17,10 @@ public class Estudante extends PersoasCole {
     /**
      * Constructor con valores de la clase Estudante.
      *
-     * @param nomeCole
-     * @param nivel
-     * @param nome
-     * @param direccion
+     * @param nomeCole Nome do colexio.
+     * @param nivel Nivel del alumno.
+     * @param nome Nome do alumno.
+     * @param direccion Direccion do alumno.
      */
     public Estudante(String nomeCole,int nivel,String nome,String direccion) {
         super(nome,direccion);
@@ -31,7 +31,7 @@ public class Estudante extends PersoasCole {
     /**
      * Metodo getNomeCole que devolve un valor String.
      *
-     * @return
+     * @return Devuelve el nombre del colexio.
      */
     public String getNomeCole() {
         return nomeCole;
@@ -40,7 +40,7 @@ public class Estudante extends PersoasCole {
     /**
      * Metodo setNomeCole que le da un valor de tipo String a nomeCole.
      *
-     * @param nomeCole
+     * @param nomeCole Nome do colexio.
      */
     public void setNomeCole(String nomeCole) {
         this.nomeCole = nomeCole;
@@ -49,7 +49,7 @@ public class Estudante extends PersoasCole {
     /**
      * Metodo getNivel que devolve un valor de tipo int.
      *
-     * @return
+     * @return devuelve el nivel del alumno.
      */
     public int getNivel() {
         return nivel;
@@ -58,7 +58,7 @@ public class Estudante extends PersoasCole {
     /**
      * Metodo setNivel que le da un valor de tipo int a nivel.
      *
-     * @param nivel
+     * @param nivel Nivel del alumno.
      */
     public void setNivel(int nivel) {
         this.nivel = nivel;
@@ -67,7 +67,8 @@ public class Estudante extends PersoasCole {
     /**
      * Metodo toString que devolve un valor Sting.
      *
-     * @return
+     * @return Devuelve el nombre del alumno,la direccion,el nome do colexio y
+     * el nivel.
      */
     @Override
     public String toString() {
